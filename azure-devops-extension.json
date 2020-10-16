@@ -1,0 +1,152 @@
+{
+    "manifestVersion": 1,
+    "id": "64e90d50-a9c0-11e8-a356-d3eab7857116",
+    "version": "2.7.2",
+    "name": "Unity Tools for Azure DevOps",
+    "description": "The Unity Tools for Azure DevOps extension adds CI/CD tools for Unity 3D projects to your Azure DevOps orgaization.",
+    "publisher": "DinomiteStudios",
+    "public": true,
+    "icons": {
+        "default": "images/extensionIcon.png"
+    },
+    "content": {
+        "details": {
+            "path": "README.md"
+        },
+        "license": {
+            "path": "LICENSE"
+        }
+    },
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "categories": [
+        "Build and release"
+    ],
+    "tags": [
+        "Unity",
+        "Build",
+        "UWP",
+        "Android",
+        "iOS",
+        "3D",
+        "tvOS",
+        "WebGL",
+        "CI",
+        "CD"
+    ],
+    "links": {
+        "getstarted": {
+            "uri": "https://dinomite-studios.github.io/unity-azure-pipelines-tasks/"
+        },
+        "license": {
+            "uri": "https://github.com/Dinomite-Studios/unity-azure-pipelines-tasks/blob/master/LICENSE"
+        },
+        "support": {
+            "uri": "https://github.com/Dinomite-Studios/unity-azure-pipelines-tasks/issues"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/Dinomite-Studios/unity-azure-pipelines-tasks"
+    },
+    "files": [
+        {
+            "path": "images",
+            "addressable": true
+        },
+        {
+            "path": "Tasks/UnityBuild/UnityBuildV1"
+        },
+        {
+            "path": "Tasks/UnityBuild/UnityBuildV2"
+        },
+        {
+            "path": "Tasks/UnityBuild/UnityBuildV3"
+        },
+        {
+            "path": "Tasks/UnityGetProjectVersion/UnityGetProjectVersionV1"
+        },
+        {
+            "path": "Tasks/UnityActivateLicense/UnityActivateLicenseV1"
+        },
+        {
+            "path": "Tasks/UnityTest/UnityTestV1"
+        },
+        {
+            "path": "Tasks/UnityCMD/UnityCMDV1"
+        }
+    ],
+    "branding": {
+        "color": "rgb(0, 0, 0)",
+        "theme": "dark"
+    },
+    "screenshots": [
+        {
+            "path": "images/screen1.PNG"
+        },
+        {
+            "path": "images/screen2.PNG"
+        },
+        {
+            "path": "images/screen3.PNG"
+        },
+        {
+            "path": "images/screen4.PNG"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "custom-unity-build-task",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "Tasks/UnityBuild"
+            }
+        },
+        {
+            "id": "custom-unity-get-project-version-task",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "Tasks/UnityGetProjectVersion"
+            }
+        },
+        {
+            "id": "custom-unity-activate-license-task",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "Tasks/UnityActivateLicense"
+            }
+        },
+        {
+            "id": "custom-unity-test-task",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "Tasks/UnityTest"
+            }
+        },
+        {
+            "id": "custom-unity-cmd-task",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "Tasks/UnityCMD"
+            }
+        }
+    ]
+}
