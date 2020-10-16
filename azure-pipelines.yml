@@ -7,13 +7,14 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  name: Default
+  demands: 
+    Unity_2020.1.8f
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+- task: UnityBuildTask@3
+  inputs:
+    buildTarget: 'standalone'
+    unityProjectPath: 'Dev-Ops'
+    outputPath: '$(Build.BinariesDirectory)'
+    outputFileName: 'Build'
