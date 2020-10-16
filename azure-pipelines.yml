@@ -15,6 +15,6 @@ steps:
 - task: UnityBuildTask@3
   inputs:
     buildTarget: 'standalone'
-    unityProjectPath: 'Dev-Ops'
+    unityProjectPath: New-DevOps/Dev-Ops'
     outputPath: '$(Build.BinariesDirectory)'
-    outputFileName: 'Build'
+    outputFileName: 'New-DevOps/Build'
