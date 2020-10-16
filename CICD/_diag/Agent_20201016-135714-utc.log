@@ -1,0 +1,24 @@
+[2020-10-16 13:57:14Z INFO AgentProcess] Agent package win-x64.
+[2020-10-16 13:57:14Z INFO AgentProcess] Running on Windows (X64).
+[2020-10-16 13:57:14Z INFO AgentProcess] RuntimeInformation: Microsoft Windows 10.0.18363.
+[2020-10-16 13:57:14Z INFO AgentProcess] Version: 2.175.2
+[2020-10-16 13:57:14Z INFO AgentProcess] Commit: 5c4925cfba4e3b4819f4d5be070058a2d667c376
+[2020-10-16 13:57:14Z INFO AgentProcess] Culture: en-US
+[2020-10-16 13:57:14Z INFO AgentProcess] UI Culture: en-US
+[2020-10-16 13:57:14Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin'
+[2020-10-16 13:57:14Z INFO HostContext] Well known directory 'Root': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD'
+[2020-10-16 13:57:14Z INFO AgentProcess] Validating directory permissions for: 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD'
+[2020-10-16 13:57:15Z ERR  Terminal] WRITE ERROR: An error occurred: Permission to read the directory contents is required for 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD' and each directory up the hierarchy. Access to the path 'C:\Users\Admin\Documents\Unity\New-DevOps' is denied.
+[2020-10-16 13:57:15Z ERR  AgentProcess] System.UnauthorizedAccessException: Permission to read the directory contents is required for 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD' and each directory up the hierarchy. Access to the path 'C:\Users\Admin\Documents\Unity\New-DevOps' is denied.
+ ---> System.UnauthorizedAccessException: Access to the path 'C:\Users\Admin\Documents\Unity\New-DevOps' is denied.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserEntries(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.EnumerateFileSystemEntries(String path)
+   at Microsoft.VisualStudio.Services.Agent.Util.IOUtil.ValidateExecutePermission(String directory)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualStudio.Services.Agent.Util.IOUtil.ValidateExecutePermission(String directory)
+   at Microsoft.VisualStudio.Services.Agent.Listener.Program.MainAsync(IHostContext context, String[] args)

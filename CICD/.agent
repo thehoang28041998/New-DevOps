@@ -1,0 +1,8 @@
+﻿{
+  "agentId": 89,
+  "agentName": "ADMIN",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://dev.azure.com/thehoang28041998/",
+  "workFolder": "_work"
+}

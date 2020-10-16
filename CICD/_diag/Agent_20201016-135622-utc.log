@@ -1,0 +1,834 @@
+[2020-10-16 13:56:23Z INFO AgentProcess] Agent package win-x64.
+[2020-10-16 13:56:23Z INFO AgentProcess] Running on Windows (X64).
+[2020-10-16 13:56:23Z INFO AgentProcess] RuntimeInformation: Microsoft Windows 10.0.18363.
+[2020-10-16 13:56:23Z INFO AgentProcess] Version: 2.175.2
+[2020-10-16 13:56:23Z INFO AgentProcess] Commit: 5c4925cfba4e3b4819f4d5be070058a2d667c376
+[2020-10-16 13:56:23Z INFO AgentProcess] Culture: en-US
+[2020-10-16 13:56:23Z INFO AgentProcess] UI Culture: en-US
+[2020-10-16 13:56:23Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin'
+[2020-10-16 13:56:23Z INFO HostContext] Well known directory 'Root': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD'
+[2020-10-16 13:56:23Z INFO AgentProcess] Validating directory permissions for: 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD'
+[2020-10-16 13:56:23Z INFO PowerShellExeUtil] Generation: '1'
+[2020-10-16 13:56:23Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion': '2.0'
+[2020-10-16 13:56:23Z INFO PowerShellExeUtil] Unsupported version. Skipping.
+[2020-10-16 13:56:23Z INFO PowerShellExeUtil] Generation: '3'
+[2020-10-16 13:56:23Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.18362.1'
+[2020-10-16 13:56:23Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2020-10-16 13:56:23Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework', value name 'InstallRoot': 'C:\Windows\Microsoft.NET\Framework64\'
+[2020-10-16 13:56:23Z INFO AgentProcess] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP' contains sub keys:
+[2020-10-16 13:56:23Z INFO AgentProcess]  'CDF'
+[2020-10-16 13:56:23Z INFO AgentProcess]  'v2.0.50727'
+[2020-10-16 13:56:23Z INFO AgentProcess]  'v3.0'
+[2020-10-16 13:56:23Z INFO AgentProcess]  'v3.5'
+[2020-10-16 13:56:23Z INFO AgentProcess]  'v4'
+[2020-10-16 13:56:23Z INFO AgentProcess]  'v4.0'
+[2020-10-16 13:56:23Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Version': '2.0.50727.4927'
+[2020-10-16 13:56:23Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Install': '1'
+[2020-10-16 13:56:23Z INFO AgentProcess] Testing directory: 'C:\Windows\Microsoft.NET\Framework64\v2.0.50727'
+[2020-10-16 13:56:23Z INFO AgentProcess] Found version: 2.0.50727
+[2020-10-16 13:56:23Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Version': '3.0.30729.4926'
+[2020-10-16 13:56:23Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Install': '1'
+[2020-10-16 13:56:23Z INFO AgentProcess] Testing directory: 'C:\Windows\Microsoft.NET\Framework64\v3.0'
+[2020-10-16 13:56:23Z INFO AgentProcess] Found version: 3.0
+[2020-10-16 13:56:23Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Version': '3.5.30729.4926'
+[2020-10-16 13:56:23Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Install': '1'
+[2020-10-16 13:56:23Z INFO AgentProcess] Testing directory: 'C:\Windows\Microsoft.NET\Framework64\v3.5'
+[2020-10-16 13:56:23Z INFO AgentProcess] Found version: 3.5
+[2020-10-16 13:56:23Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name 'Version' is null.
+[2020-10-16 13:56:23Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name '' is null.
+[2020-10-16 13:56:23Z INFO AgentProcess] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP\v4' contains sub keys:
+[2020-10-16 13:56:23Z INFO AgentProcess]  'Client'
+[2020-10-16 13:56:23Z INFO AgentProcess]  'Full'
+[2020-10-16 13:56:23Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Version': '4.8.03752'
+[2020-10-16 13:56:23Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Install': '1'
+[2020-10-16 13:56:23Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2020-10-16 13:56:23Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Release': '528040'
+[2020-10-16 13:56:23Z INFO AgentProcess] Type is System.Int32
+[2020-10-16 13:56:23Z INFO AgentProcess] Interpreted version: 4.7.0
+[2020-10-16 13:56:23Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Version': '4.8.03752'
+[2020-10-16 13:56:23Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Install': '1'
+[2020-10-16 13:56:23Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2020-10-16 13:56:23Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Release': '528040'
+[2020-10-16 13:56:23Z INFO AgentProcess] Type is System.Int32
+[2020-10-16 13:56:23Z INFO AgentProcess] Interpreted version: 4.7.0
+[2020-10-16 13:56:23Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name 'Version' is null.
+[2020-10-16 13:56:23Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name '': 'deprecated'
+[2020-10-16 13:56:23Z INFO AgentProcess] Found 5 versions:
+[2020-10-16 13:56:23Z INFO AgentProcess]  2.0.50727
+[2020-10-16 13:56:23Z INFO AgentProcess]  3.0
+[2020-10-16 13:56:23Z INFO AgentProcess]  3.5
+[2020-10-16 13:56:23Z INFO AgentProcess]  4.7.0
+[2020-10-16 13:56:23Z INFO AgentProcess]  4.7.0
+[2020-10-16 13:56:23Z INFO AgentProcess] Testing for min NET Framework version: '4.5'
+[2020-10-16 13:56:23Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin'
+[2020-10-16 13:56:23Z INFO HostContext] Well known directory 'Root': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD'
+[2020-10-16 13:56:23Z INFO CommandSettings] Configure {
+  "AcceptTeeEula": false,
+  "AddDeploymentGroupTags": false,
+  "AddEnvironmentVirtualMachineResourceTags": false,
+  "AddMachineGroupTags": false,
+  "Agent": null,
+  "CollectionName": null,
+  "DeploymentGroup": false,
+  "DeploymentGroupName": null,
+  "DeploymentGroupTags": null,
+  "DeploymentPool": false,
+  "DeploymentPoolName": null,
+  "EnvironmentVMResource": false,
+  "EnvironmentName": null,
+  "EnvironmentVMResourceTags": null,
+  "GitUseSChannel": false,
+  "DisableLogUploads": false,
+  "MachineGroup": false,
+  "MachineGroupName": null,
+  "MachineGroupTags": null,
+  "MonitorSocketAddress": null,
+  "NotificationPipeName": null,
+  "NotificationSocketAddress": null,
+  "NoRestart": false,
+  "OverwriteAutoLogon": false,
+  "Pool": null,
+  "ProjectName": null,
+  "ProxyPassword": null,
+  "ProxyUserName": null,
+  "ProxyUrl": null,
+  "Replace": false,
+  "RunAsAutoLogon": false,
+  "RunAsService": false,
+  "RunOnce": false,
+  "SslCACert": null,
+  "SslClientCert": null,
+  "SslClientCertArchive": null,
+  "SslClientCertKey": null,
+  "SslClientCertPassword": null,
+  "SslSkipCertValidation": false,
+  "Url": null,
+  "WindowsLogonAccount": null,
+  "WindowsLogonPassword": null,
+  "Work": null,
+  "Auth": null,
+  "LaunchBrowser": false,
+  "Password": null,
+  "Token": null,
+  "Unattended": false,
+  "UserName": null,
+  "Help": false,
+  "Version": false
+}
+[2020-10-16 13:56:23Z INFO AgentProcess] Arguments parsed
+[2020-10-16 13:56:23Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin'
+[2020-10-16 13:56:23Z INFO HostContext] Well known directory 'Root': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD'
+[2020-10-16 13:56:23Z INFO HostContext] Well known config file 'Proxy': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\.proxy'
+[2020-10-16 13:56:23Z INFO VstsAgentWebProxy] No proxy setting found.
+[2020-10-16 13:56:23Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin'
+[2020-10-16 13:56:23Z INFO HostContext] Well known directory 'Root': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD'
+[2020-10-16 13:56:23Z INFO HostContext] Well known config file 'Certificates': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\.certificates'
+[2020-10-16 13:56:23Z INFO AgentCertificateManager] No certificate setting found.
+[2020-10-16 13:56:23Z INFO Agent] ExecuteCommand
+[2020-10-16 13:56:23Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\Agent.Listener.dll
+[2020-10-16 13:56:23Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin'
+[2020-10-16 13:56:23Z INFO ConfigurationStore] binPath: C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin
+[2020-10-16 13:56:23Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin'
+[2020-10-16 13:56:23Z INFO HostContext] Well known directory 'Root': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD'
+[2020-10-16 13:56:23Z INFO ConfigurationStore] RootFolder: C:\Users\Admin\Documents\Unity\New-DevOps\CICD
+[2020-10-16 13:56:23Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin'
+[2020-10-16 13:56:23Z INFO HostContext] Well known directory 'Root': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD'
+[2020-10-16 13:56:23Z INFO HostContext] Well known config file 'Agent': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\.agent'
+[2020-10-16 13:56:23Z INFO ConfigurationStore] ConfigFilePath: C:\Users\Admin\Documents\Unity\New-DevOps\CICD\.agent
+[2020-10-16 13:56:23Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin'
+[2020-10-16 13:56:23Z INFO HostContext] Well known directory 'Root': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD'
+[2020-10-16 13:56:23Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\.credentials'
+[2020-10-16 13:56:23Z INFO ConfigurationStore] CredFilePath: C:\Users\Admin\Documents\Unity\New-DevOps\CICD\.credentials
+[2020-10-16 13:56:23Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin'
+[2020-10-16 13:56:23Z INFO HostContext] Well known directory 'Root': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD'
+[2020-10-16 13:56:23Z INFO HostContext] Well known config file 'Service': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\.service'
+[2020-10-16 13:56:23Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\Admin\Documents\Unity\New-DevOps\CICD\.service
+[2020-10-16 13:56:23Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin'
+[2020-10-16 13:56:23Z INFO HostContext] Well known directory 'Root': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD'
+[2020-10-16 13:56:23Z INFO HostContext] Well known config file 'Autologon': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\.autologon'
+[2020-10-16 13:56:23Z INFO ConfigurationStore] AutoLogonSettingsFilePath: C:\Users\Admin\Documents\Unity\New-DevOps\CICD\.autologon
+[2020-10-16 13:56:23Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin'
+[2020-10-16 13:56:23Z INFO HostContext] Well known directory 'Root': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD'
+[2020-10-16 13:56:23Z INFO HostContext] Well known config file 'Options': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\.options'
+[2020-10-16 13:56:23Z INFO ConfigurationStore] RuntimeOptionsFilePath: C:\Users\Admin\Documents\Unity\New-DevOps\CICD\.options
+[2020-10-16 13:56:23Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin'
+[2020-10-16 13:56:23Z INFO HostContext] Well known directory 'Root': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD'
+[2020-10-16 13:56:23Z INFO HostContext] Well known config file 'SetupInfo': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\.setup_info'
+[2020-10-16 13:56:23Z INFO ConfigurationStore] SetupInfoFilePath: C:\Users\Admin\Documents\Unity\New-DevOps\CICD\.setup_info
+[2020-10-16 13:56:23Z INFO Terminal] WRITE LINE: 
+  ___                      ______ _            _ _
+ / _ \                     | ___ (_)          | (_)
+/ /_\ \_____   _ _ __ ___  | |_/ /_ _ __   ___| |_ _ __   ___  ___
+|  _  |_  / | | | '__/ _ \ |  __/| | '_ \ / _ \ | | '_ \ / _ \/ __|
+| | | |/ /| |_| | | |  __/ | |   | | |_) |  __/ | | | | |  __/\__ \
+\_| |_/___|\__,_|_|  \___| \_|   |_| .__/ \___|_|_|_| |_|\___||___/
+                                   | |
+        agent v2.175.2             |_|          (commit 5c4925c)
+
+[2020-10-16 13:56:23Z INFO ConfigurationManager] ConfigureAsync
+[2020-10-16 13:56:23Z INFO ConfigurationStore] IsConfigured()
+[2020-10-16 13:56:23Z INFO ConfigurationStore] IsConfigured: False
+[2020-10-16 13:56:23Z INFO ConfigurationManager] Is configured: False
+[2020-10-16 13:56:23Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2020-10-16 13:56:23Z INFO ConfigurationManager] Testing for min NET Framework version: '4.6'
+[2020-10-16 13:56:23Z INFO CommandSettings] Flag 'deploymentgroup': 'False'
+[2020-10-16 13:56:23Z INFO CommandSettings] Flag 'deploymentpool': 'False'
+[2020-10-16 13:56:23Z INFO CommandSettings] Flag 'environment': 'False'
+[2020-10-16 13:56:23Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Listener.Configuration.IConfigurationProvider'
+[2020-10-16 13:56:23Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.BuildReleasesAgentConfigProvider, Agent.Listener
+[2020-10-16 13:56:23Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.DeploymentGroupAgentConfigProvider, Agent.Listener
+[2020-10-16 13:56:23Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.SharedDeploymentAgentConfigProvider, Agent.Listener
+[2020-10-16 13:56:23Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.EnvironmentVMResourceConfigProvider, Agent.Listener
+[2020-10-16 13:56:23Z INFO Terminal] WRITE LINE: 
+[2020-10-16 13:56:23Z INFO Terminal] WRITE LINE: >> Connect:
+[2020-10-16 13:56:23Z INFO Terminal] WRITE LINE: 
+[2020-10-16 13:56:23Z INFO CommandSettings] Arg 'url': ''
+[2020-10-16 13:56:23Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-10-16 13:56:23Z INFO PromptManager] ReadValue
+[2020-10-16 13:56:23Z INFO Terminal] WRITE: Enter server URL > 
+[2020-10-16 13:56:23Z INFO Terminal] READ LINE
+[2020-10-16 13:56:46Z INFO Terminal] Read value: 'https://dev.azure.com/thehoang28041998'
+[2020-10-16 13:56:46Z INFO ConfigurationManager] GetCredentialProvider
+[2020-10-16 13:56:46Z INFO CommandSettings] Arg 'auth': ''
+[2020-10-16 13:56:46Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-10-16 13:56:46Z INFO PromptManager] ReadValue
+[2020-10-16 13:56:46Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2020-10-16 13:56:46Z INFO Terminal] READ LINE
+[2020-10-16 13:56:47Z INFO Terminal] Read value: ''
+[2020-10-16 13:56:47Z INFO PromptManager] Falling back to the default: 'PAT'
+[2020-10-16 13:56:47Z INFO ConfigurationManager] Creating credential for auth: PAT
+[2020-10-16 13:56:47Z INFO CredentialManager] GetCredentialProvider
+[2020-10-16 13:56:47Z INFO CredentialManager] Creating type PAT
+[2020-10-16 13:56:47Z INFO CredentialManager] Creating credential type: PAT
+[2020-10-16 13:56:47Z INFO PersonalAccessToken] EnsureCredential
+[2020-10-16 13:56:47Z INFO CommandSettings] Arg 'token': ''
+[2020-10-16 13:56:47Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-10-16 13:56:47Z INFO PromptManager] ReadValue
+[2020-10-16 13:56:47Z INFO Terminal] WRITE: Enter personal access token > 
+[2020-10-16 13:56:47Z INFO Terminal] READ SECRET
+[2020-10-16 13:56:56Z INFO Terminal] Read value: '***'
+[2020-10-16 13:56:56Z INFO PersonalAccessToken] GetVssCredentials
+[2020-10-16 13:56:56Z INFO PersonalAccessToken] token retrieved: 52 chars
+[2020-10-16 13:56:56Z INFO PersonalAccessToken] cred created
+[2020-10-16 13:56:56Z INFO ConfigurationManager] cred retrieved
+[2020-10-16 13:56:56Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-10-16 13:56:57Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-10-16 13:56:57Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-10-16 13:56:57Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-10-16 13:56:57Z INFO ConfigurationManager] Server deployment type: Hosted
+[2020-10-16 13:56:57Z INFO Terminal] WRITE LINE: Connecting to server ...
+[2020-10-16 13:56:57Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2020-10-16 13:56:57Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-10-16 13:56:57Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2020-10-16 13:56:57Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-10-16 13:56:57Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2020-10-16 13:56:57Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-10-16 13:56:57Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-10-16 13:56:58Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-10-16 13:56:58Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-10-16 13:56:58Z INFO ConfigurationManager] Test Connection complete.
+[2020-10-16 13:56:58Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin'
+[2020-10-16 13:56:58Z INFO HostContext] Well known directory 'Root': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD'
+[2020-10-16 13:56:58Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\.credentials_rsaparams'
+[2020-10-16 13:56:58Z INFO RSAEncryptedFileKeyManager] Creating new RSA key using 2048-bit key length
+[2020-10-16 13:56:58Z INFO RSAEncryptedFileKeyManager] Successfully saved RSA key parameters to file C:\Users\Admin\Documents\Unity\New-DevOps\CICD\.credentials_rsaparams
+[2020-10-16 13:56:58Z INFO Terminal] WRITE LINE: 
+[2020-10-16 13:56:58Z INFO Terminal] WRITE LINE: >> Register Agent:
+[2020-10-16 13:56:58Z INFO Terminal] WRITE LINE: 
+[2020-10-16 13:56:58Z INFO CommandSettings] Arg 'pool': ''
+[2020-10-16 13:56:58Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-10-16 13:56:58Z INFO PromptManager] ReadValue
+[2020-10-16 13:56:58Z INFO Terminal] WRITE: Enter agent pool (press enter for default) > 
+[2020-10-16 13:56:58Z INFO Terminal] READ LINE
+[2020-10-16 13:57:04Z INFO Terminal] Read value: ''
+[2020-10-16 13:57:04Z INFO PromptManager] Falling back to the default: 'default'
+[2020-10-16 13:57:04Z INFO BuildReleasesAgentConfigProvider] Found pool default with id 1 and name Default
+[2020-10-16 13:57:04Z INFO CommandSettings] Arg 'agent': ''
+[2020-10-16 13:57:04Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-10-16 13:57:04Z INFO PromptManager] ReadValue
+[2020-10-16 13:57:04Z INFO Terminal] WRITE: Enter agent name (press enter for ADMIN) > 
+[2020-10-16 13:57:04Z INFO Terminal] READ LINE
+[2020-10-16 13:57:05Z INFO Terminal] Read value: ''
+[2020-10-16 13:57:05Z INFO PromptManager] Falling back to the default: 'ADMIN'
+[2020-10-16 13:57:05Z INFO Terminal] WRITE LINE: Scanning for tool capabilities.
+[2020-10-16 13:57:05Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Capabilities.ICapabilitiesProvider'
+[2020-10-16 13:57:05Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.AgentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2020-10-16 13:57:05Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.EnvironmentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2020-10-16 13:57:05Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.PowerShellCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2020-10-16 13:57:05Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.UserCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'ADSK_CLM_WPAD_PROXY_CHECK': 'FALSE'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'ALLUSERSPROFILE': 'C:\ProgramData'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'APPDATA': 'C:\Users\Admin\AppData\Roaming'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'CommonProgramFiles': 'C:\Program Files\Common Files'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'CommonProgramFiles(x86)': 'C:\Program Files (x86)\Common Files'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'CommonProgramW6432': 'C:\Program Files\Common Files'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'COMPUTERNAME': 'ADMIN'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'ComSpec': 'C:\Windows\system32\cmd.exe'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'DriverData': 'C:\Windows\System32\Drivers\DriverData'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'HOMEDRIVE': 'C:'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'HOMEPATH': '\Users\Admin'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'JAVA_HOME': 'C:\Program Files (x86)\Java\jdk1.8.0_231'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'LOCALAPPDATA': 'C:\Users\Admin\AppData\Local'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'LOGONSERVER': '\\ADMIN'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'NUMBER_OF_PROCESSORS': '8'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'OneDrive': 'C:\Users\Admin\OneDrive'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'OS': 'Windows_NT'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'Path': 'C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Java\jdk1.8.0_231\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\.dotnet\tools'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'PROCESSOR_ARCHITECTURE': 'AMD64'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 94 Stepping 3, GenuineIntel'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'PROCESSOR_LEVEL': '6'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'PROCESSOR_REVISION': '5e03'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'ProgramData': 'C:\ProgramData'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'ProgramFiles': 'C:\Program Files'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'ProgramFiles(x86)': 'C:\Program Files (x86)'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'ProgramW6432': 'C:\Program Files'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'PROMPT': '$P$G'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'PSModulePath': 'C:\Users\Admin\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'PUBLIC': 'C:\Users\Public'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'SystemDrive': 'C:'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'SystemRoot': 'C:\Windows'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'TEMP': 'C:\Users\Admin\AppData\Local\Temp'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'TMP': 'C:\Users\Admin\AppData\Local\Temp'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'USERDOMAIN': 'ADMIN'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'USERDOMAIN_ROAMINGPROFILE': 'ADMIN'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'USERNAME': 'Admin'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'USERPROFILE': 'C:\Users\Admin'
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'VERBOSE_ARG': ''SilentlyContinue''
+[2020-10-16 13:57:05Z INFO EnvironmentCapabilitiesProvider] Adding 'windir': 'C:\Windows'
+[2020-10-16 13:57:05Z INFO PowerShellExeUtil] Generation: '1'
+[2020-10-16 13:57:05Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion': '2.0'
+[2020-10-16 13:57:05Z INFO PowerShellExeUtil] Unsupported version. Skipping.
+[2020-10-16 13:57:05Z INFO PowerShellExeUtil] Generation: '3'
+[2020-10-16 13:57:05Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.18362.1'
+[2020-10-16 13:57:05Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2020-10-16 13:57:05Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin'
+[2020-10-16 13:57:05Z INFO ProcessInvokerWrapper] Starting process:
+[2020-10-16 13:57:05Z INFO ProcessInvokerWrapper]   File name: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+[2020-10-16 13:57:05Z INFO ProcessInvokerWrapper]   Arguments: '-NoLogo -Sta -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command ". 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\Add-Capabilities.ps1'"'
+[2020-10-16 13:57:05Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell'
+[2020-10-16 13:57:05Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2020-10-16 13:57:05Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2020-10-16 13:57:05Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2020-10-16 13:57:05Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2020-10-16 13:57:05Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2020-10-16 13:57:05Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2020-10-16 13:57:05Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2020-10-16 13:57:05Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2020-10-16 13:57:05Z INFO ProcessInvokerWrapper] Process started with process id 6796, waiting for process exit.
+[2020-10-16 13:57:06Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\Add-AndroidSdkCapabilities.ps1
+[2020-10-16 13:57:06Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'CurrentUser', view 'Default', key name 'SOFTWARE\Android SDK Tools', value name 'Path'
+[2020-10-16 13:57:06Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:06Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'SOFTWARE\Android SDK Tools', value name 'Path'
+[2020-10-16 13:57:06Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:06Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'SOFTWARE\Android SDK Tools', value name 'Path'
+[2020-10-16 13:57:06Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:06Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\Add-AntCapabilities.ps1
+[2020-10-16 13:57:06Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: 'env:ANT_HOME'
+[2020-10-16 13:57:06Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2020-10-16 13:57:06Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\Add-ApplicationCapabilities.ps1
+[2020-10-16 13:57:06Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'npm'
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'gulp'
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'node'
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'bower'
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'grunt'
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'svn'
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'cmake'
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'docker'
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\Add-AzureGuestAgentCapabilities.ps1
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\Add-AzurePowerShellCapabilities.ps1
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Env:PSModulePath: 'C:\Users\Admin\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules'
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Attempting to find the module 'Az.Accounts' from the module path.
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Attempting to find the module 'AzureRM' from the module path.
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking if path exists: C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ResourceManager\AzureResourceManager\AzureRM.Profile\AzureRM.Profile.psd1
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking if path exists: C:\Program Files\Microsoft SDKs\Azure\PowerShell\ResourceManager\AzureResourceManager\AzureRM.Profile\AzureRM.Profile.psd1
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Attempting to find the module 'Azure' from the module path.
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking if path exists: C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ServiceManagement\Azure\Azure.psd1
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking if path exists: C:\Program Files\Microsoft SDKs\Azure\PowerShell\ServiceManagement\Azure\Azure.psd1
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\Add-ChefCapabilities.ps1
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2020-10-16 13:57:07Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\Add-DotNetFrameworkCapabilities.ps1
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\.NETFramework', value name 'InstallRoot'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   'CDF'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v2.0.50727'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v3.0'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v3.5'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v4'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v4.0'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Version'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '2.0.50727.4927'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Install'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: 2.0.50727.4927
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Windows\Microsoft.NET\Framework\v2.0.50727'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_2.0]C:\Windows\Microsoft.NET\Framework\v2.0.50727
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_2.0': 'C:\Windows\Microsoft.NET\Framework\v2.0.50727'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Version'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '3.0.30729.4926'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Install'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: 3.0.30729.4926
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Windows\Microsoft.NET\Framework\v3.0'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_3.0]C:\Windows\Microsoft.NET\Framework\v3.0
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_3.0': 'C:\Windows\Microsoft.NET\Framework\v3.0'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Version'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '3.5.30729.4926'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Install'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: 3.5.30729.4926
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Windows\Microsoft.NET\Framework\v3.5'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_3.5]C:\Windows\Microsoft.NET\Framework\v3.5
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_3.5': 'C:\Windows\Microsoft.NET\Framework\v3.5'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4', value name 'Version'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4', value name ''
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Client'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Full'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Version'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '4.8.03752'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Install'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'InstallPath'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Release'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '528040'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_4.8.0]C:\Windows\Microsoft.NET\Framework\v4.0.30319
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_4.8.0': 'C:\Windows\Microsoft.NET\Framework\v4.0.30319'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Version'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '4.8.03752'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Install'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'InstallPath'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Release'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '528040'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_4.8.0]C:\Windows\Microsoft.NET\Framework\v4.0.30319
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_4.8.0': 'C:\Windows\Microsoft.NET\Framework\v4.0.30319'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4.0', value name 'Version'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4.0', value name ''
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'deprecated'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\.NETFramework', value name 'InstallRoot'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   'CDF'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v2.0.50727'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v3.0'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v3.5'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v4'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v4.0'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Version'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '2.0.50727.4927'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Install'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: 2.0.50727.4927
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Windows\Microsoft.NET\Framework64\v2.0.50727'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_2.0_x64]C:\Windows\Microsoft.NET\Framework64\v2.0.50727
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_2.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v2.0.50727'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Version'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '3.0.30729.4926'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Install'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: 3.0.30729.4926
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Windows\Microsoft.NET\Framework64\v3.0'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_3.0_x64]C:\Windows\Microsoft.NET\Framework64\v3.0
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_3.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v3.0'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Version'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '3.5.30729.4926'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Install'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: 3.5.30729.4926
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Windows\Microsoft.NET\Framework64\v3.5'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_3.5_x64]C:\Windows\Microsoft.NET\Framework64\v3.5
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_3.5_x64': 'C:\Windows\Microsoft.NET\Framework64\v3.5'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4', value name 'Version'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4', value name ''
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Client'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Full'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Version'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '4.8.03752'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Install'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'InstallPath'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Release'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '528040'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_4.8.0_x64]C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_4.8.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Version'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '4.8.03752'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Install'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'InstallPath'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Release'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '528040'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_4.8.0_x64]C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_4.8.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4.0', value name 'Version'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4.0', value name ''
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'deprecated'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework]C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\Add-JavaCapabilities.ps1
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Runtime Environment\1.6', value name 'JavaHome'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Runtime Environment\1.7', value name 'JavaHome'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Runtime Environment\1.8', value name 'JavaHome'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Program Files (x86)\Java\jre1.8.0_231'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=java_8]C:\Program Files (x86)\Java\jre1.8.0_231
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] Adding 'java_8': 'C:\Program Files (x86)\Java\jre1.8.0_231'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Runtime Environment\1.6', value name 'JavaHome'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Runtime Environment\1.7', value name 'JavaHome'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Runtime Environment\1.8', value name 'JavaHome'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=java]C:\Program Files (x86)\Java\jre1.8.0_231
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] Adding 'java': 'C:\Program Files (x86)\Java\jre1.8.0_231'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Development Kit\1.6', value name 'JavaHome'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Development Kit\1.7', value name 'JavaHome'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Development Kit\1.8', value name 'JavaHome'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Program Files (x86)\Java\jdk1.8.0_231'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=jdk_8]C:\Program Files (x86)\Java\jdk1.8.0_231
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] Adding 'jdk_8': 'C:\Program Files (x86)\Java\jdk1.8.0_231'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Development Kit\1.6', value name 'JavaHome'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Development Kit\1.7', value name 'JavaHome'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Development Kit\1.8', value name 'JavaHome'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=jdk]C:\Program Files (x86)\Java\jdk1.8.0_231
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] Adding 'jdk': 'C:\Program Files (x86)\Java\jdk1.8.0_231'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\Add-MavenCapabilities.ps1
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: env:JAVA_HOME
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: M2_HOME not set. Checking in PATH
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'mvn'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\Add-MSBuildCapabilities.ps1
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\MSBuild\ToolsVersions\2.0', value name 'MSBuildToolsPath'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\v2.0.50727\'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_2.0]C:\Windows\Microsoft.NET\Framework\v2.0.50727\
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_2.0': 'C:\Windows\Microsoft.NET\Framework\v2.0.50727\'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\MSBuild\ToolsVersions\3.5', value name 'MSBuildToolsPath'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\v3.5\'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_3.5]C:\Windows\Microsoft.NET\Framework\v3.5\
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_3.5': 'C:\Windows\Microsoft.NET\Framework\v3.5\'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\MSBuild\ToolsVersions\4.0', value name 'MSBuildToolsPath'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_4.0]C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_4.0': 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\MSBuild\ToolsVersions\12.0', value name 'MSBuildToolsPath'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\MSBuild\ToolsVersions\14.0', value name 'MSBuildToolsPath'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 15 setup instance.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -latest -format json
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 15 setup instance.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest -format json
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 16 setup instance.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -latest -format json
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 16 setup instance.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest -format json
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild]C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild': 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\MSBuild\ToolsVersions\2.0', value name 'MSBuildToolsPath'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\v2.0.50727\'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_2.0_x64]C:\Windows\Microsoft.NET\Framework64\v2.0.50727\
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_2.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v2.0.50727\'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\MSBuild\ToolsVersions\3.5', value name 'MSBuildToolsPath'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\v3.5\'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_3.5_x64]C:\Windows\Microsoft.NET\Framework64\v3.5\
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_3.5_x64': 'C:\Windows\Microsoft.NET\Framework64\v3.5\'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\MSBuild\ToolsVersions\4.0', value name 'MSBuildToolsPath'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_4.0_x64]C:\Windows\Microsoft.NET\Framework64\v4.0.30319\
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_4.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\MSBuild\ToolsVersions\12.0', value name 'MSBuildToolsPath'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\MSBuild\ToolsVersions\14.0', value name 'MSBuildToolsPath'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_x64]C:\Windows\Microsoft.NET\Framework64\v4.0.30319\
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_x64': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\Add-PowerShellCapabilities.ps1
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=PowerShell]5.1.18362.1110
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] Adding 'PowerShell': '5.1.18362.1110'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\Add-ScvmmAdminConsoleCapabilities.ps1
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\Microsoft System Center Virtual Machine Manager Administrator Console\Setup', value name 'InstallPath'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft System Center Virtual Machine Manager Administrator Console\Setup', value name 'InstallPath'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\Add-SqlPackageCapabilities.ps1
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft SQL Server'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\Microsoft SQL Server'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft SQL Server\Data-Tier Application Framework'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\Microsoft SQL Server\Data-Tier Application Framework'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   '10.0'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   '11.0'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   '12.0'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   '14.0'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   '16.0'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   '7.1'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   '8.0'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Debugger'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Setup'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\16.0', value name 'InstallDir'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\14.0', value name 'InstallDir'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\12.0', value name 'InstallDir'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\11.0', value name 'InstallDir'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\10.0', value name 'InstallDir'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\8.0', value name 'InstallDir'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\7.1', value name 'InstallDir'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\VisualStudio'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   '14.0'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Setup'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\VisualStudio\14.0', value name 'InstallDir'
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 15 setup instance.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -latest -format json
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 15 setup instance.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest -format json
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 16 setup instance.
+[2020-10-16 13:57:08Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -latest -format json
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 16 setup instance.
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest -format json
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\Add-VisualStudioCapabilities.ps1
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\10.0', value name 'ShellFolder'
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\10.0', value name 'InstallDir'
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\11.0', value name 'ShellFolder'
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\11.0', value name 'InstallDir'
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\12.0', value name 'ShellFolder'
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\14.0', value name 'ShellFolder'
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 15 setup instance.
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -latest -format json
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 15 setup instance.
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest -format json
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\15.0', value name 'ShellFolder'
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 16 setup instance.
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -latest -format json
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 16 setup instance.
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest -format json
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\16.0', value name 'ShellFolder'
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\Add-WindowsKitCapabilities.ps1
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Windows Kits\Installed Roots', value name ''
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\Add-WindowsSdkCapabilities.ps1
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft SDKs\Windows'
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\Add-XamarinAndroidCapabilities.ps1
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Novell\Mono for Android', value name 'InstalledVersion'
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 16 setup instance.
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -latest -format json
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 16 setup instance.
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest -format json
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 15 setup instance.
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -latest -format json
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 15 setup instance.
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest -format json
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2020-10-16 13:57:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2020-10-16 13:57:09Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-10-16 13:57:09Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-10-16 13:57:09Z INFO ProcessInvokerWrapper] Exited process 6796 with exit code 0
+[2020-10-16 13:57:09Z INFO ProcessInvokerWrapper] Finished process 6796 with exit code 0, and elapsed time 00:00:03.7980149.
+[2020-10-16 13:57:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin'
+[2020-10-16 13:57:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD'
+[2020-10-16 13:57:09Z INFO AgentCapabilitiesProvider] Adding 'Agent.Name': 'ADMIN'
+[2020-10-16 13:57:09Z INFO AgentCapabilitiesProvider] Adding 'Agent.OS': 'Windows_NT'
+[2020-10-16 13:57:09Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSArchitecture': 'X64'
+[2020-10-16 13:57:09Z INFO AgentCapabilitiesProvider] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion', value name 'CurrentMajorVersionNumber': '10'
+[2020-10-16 13:57:09Z INFO AgentCapabilitiesProvider] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion', value name 'CurrentMinorVersionNumber': '0'
+[2020-10-16 13:57:09Z INFO AgentCapabilitiesProvider] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion', value name 'CurrentBuildNumber': '18363'
+[2020-10-16 13:57:09Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSVersion': '10.0.18363'
+[2020-10-16 13:57:09Z INFO AgentCapabilitiesProvider] Adding 'Cmd': 'C:\Windows\system32\cmd.exe'
+[2020-10-16 13:57:09Z INFO AgentCapabilitiesProvider] Adding 'InteractiveSession': 'True'
+[2020-10-16 13:57:09Z INFO AgentCapabilitiesProvider] Adding 'Agent.Version': '2.175.2'
+[2020-10-16 13:57:09Z INFO AgentCapabilitiesProvider] Adding 'Agent.ComputerName': 'ADMIN'
+[2020-10-16 13:57:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin'
+[2020-10-16 13:57:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD'
+[2020-10-16 13:57:09Z INFO AgentCapabilitiesProvider] Adding 'Agent.HomeDirectory': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD'
+[2020-10-16 13:57:09Z INFO Terminal] WRITE LINE: Connecting to the server.
+[2020-10-16 13:57:10Z INFO Terminal] WRITE LINE: Successfully added the agent
+[2020-10-16 13:57:10Z INFO ConfigurationManager] Agent server url resolve by server: 'https://dev.azure.com/thehoang28041998/'.
+[2020-10-16 13:57:10Z INFO ConfigurationStore] Saving OAuth credential @ C:\Users\Admin\Documents\Unity\New-DevOps\CICD\.credentials
+[2020-10-16 13:57:10Z INFO ConfigurationStore] Credentials Saved.
+[2020-10-16 13:57:10Z INFO Terminal] WRITE LINE: Testing agent connection.
+[2020-10-16 13:57:10Z INFO ConfigurationStore] HasCredentials()
+[2020-10-16 13:57:10Z INFO ConfigurationStore] stored True
+[2020-10-16 13:57:10Z INFO CredentialManager] GetCredentialProvider
+[2020-10-16 13:57:10Z INFO CredentialManager] Creating type OAuth
+[2020-10-16 13:57:10Z INFO CredentialManager] Creating credential type: OAuth
+[2020-10-16 13:57:10Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Admin\Documents\Unity\New-DevOps\CICD\.credentials_rsaparams
+[2020-10-16 13:57:10Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2020-10-16 13:57:10Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-10-16 13:57:10Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2020-10-16 13:57:10Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-10-16 13:57:10Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2020-10-16 13:57:10Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-10-16 13:57:10Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-10-16 13:57:10Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-10-16 13:57:11Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-10-16 13:57:11Z INFO CommandSettings] Arg 'work': ''
+[2020-10-16 13:57:11Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-10-16 13:57:11Z INFO PromptManager] ReadValue
+[2020-10-16 13:57:11Z INFO Terminal] WRITE: Enter work folder (press enter for _work) > 
+[2020-10-16 13:57:11Z INFO Terminal] READ LINE
+[2020-10-16 13:57:11Z INFO Terminal] Read value: ''
+[2020-10-16 13:57:11Z INFO PromptManager] Falling back to the default: '_work'
+[2020-10-16 13:57:11Z INFO CommandSettings] Flag 'disableloguploads': 'False'
+[2020-10-16 13:57:11Z INFO ConfigurationStore] Saving agent settings.
+[2020-10-16 13:57:11Z INFO ConfigurationStore] Settings Saved.
+[2020-10-16 13:57:11Z INFO Terminal] WRITE LINE: 2020-10-16 13:57:11Z: Settings Saved.
+[2020-10-16 13:57:11Z INFO CommandSettings] Flag 'gituseschannel': 'False'
+[2020-10-16 13:57:11Z INFO CommandSettings] Flag 'runasservice': 'False'
+[2020-10-16 13:57:11Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-10-16 13:57:11Z INFO PromptManager] ReadValue
+[2020-10-16 13:57:11Z INFO Terminal] WRITE: Enter run agent as service? (Y/N) (press enter for N) > 
+[2020-10-16 13:57:11Z INFO Terminal] READ LINE
+[2020-10-16 13:57:13Z INFO Terminal] Read value: 'Y'
+[2020-10-16 13:57:13Z INFO ConfigurationManager] Configuring to run the agent as service
+[2020-10-16 13:57:13Z INFO CommandSettings] Flag 'deploymentgroup': 'False'
+[2020-10-16 13:57:13Z INFO CommandSettings] Flag 'deploymentpool': 'False'
+[2020-10-16 13:57:13Z INFO CommandSettings] Flag 'environment': 'False'
+[2020-10-16 13:57:13Z INFO CommandSettings] Arg 'windowslogonaccount': ''
+[2020-10-16 13:57:13Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-10-16 13:57:13Z INFO PromptManager] ReadValue
+[2020-10-16 13:57:13Z INFO Terminal] WRITE: Enter User account to use for the service (press enter for NT AUTHORITY\NETWORK SERVICE) > 
+[2020-10-16 13:57:13Z INFO Terminal] READ LINE
+[2020-10-16 13:57:14Z INFO Terminal] Read value: ''
+[2020-10-16 13:57:14Z INFO PromptManager] Falling back to the default: 'NT AUTHORITY\NETWORK SERVICE'
+[2020-10-16 13:57:14Z INFO WindowsServiceControlManager] LogonAccount after transforming: NT AUTHORITY\NETWORK SERVICE, user: NETWORK SERVICE, domain: NT AUTHORITY
+[2020-10-16 13:57:14Z INFO WindowsServiceControlManager] Service name 'vstsagent.thehoang28041998.Default.ADMIN' display name 'Azure Pipelines Agent (thehoang28041998.Default.ADMIN)' will be used for service configuration.
+[2020-10-16 13:57:14Z INFO WindowsServiceControlManager] Verifying if the account has LogonAsService permission
+[2020-10-16 13:57:14Z INFO NativeWindowsServiceHelper] Successfully grant logon as service privilage to account 'NETWORK SERVICE'
+[2020-10-16 13:57:14Z INFO WindowsServiceControlManager] Create local group and grant folder permission to service logon account.
+[2020-10-16 13:57:14Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin'
+[2020-10-16 13:57:14Z INFO HostContext] Well known directory 'Root': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD'
+[2020-10-16 13:57:14Z INFO ConfigurationStore] Read setting file: 173 chars
+[2020-10-16 13:57:14Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin'
+[2020-10-16 13:57:14Z INFO HostContext] Well known directory 'Root': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD'
+[2020-10-16 13:57:14Z INFO HostContext] Well known directory 'Work': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\_work'
+[2020-10-16 13:57:14Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin'
+[2020-10-16 13:57:14Z INFO NativeWindowsServiceHelper] Calculated unique group name VSTS_AgentService_Gf37d9
+[2020-10-16 13:57:14Z INFO NativeWindowsServiceHelper] Trying to create group VSTS_AgentService_Gf37d9
+[2020-10-16 13:57:14Z INFO NativeWindowsServiceHelper] Local Group 'VSTS_AgentService_Gf37d9' created
+[2020-10-16 13:57:14Z INFO NativeWindowsServiceHelper] Trying to add userName NT AUTHORITY\NETWORK SERVICE to the group VSTS_AgentService_Gf37d9
+[2020-10-16 13:57:14Z INFO NativeWindowsServiceHelper] Account 'NT AUTHORITY\NETWORK SERVICE' is added to local group 'VSTS_AgentService_Gf37d9'.
+[2020-10-16 13:57:14Z INFO NativeWindowsServiceHelper] Set full access control to group for the folder C:\Users\Admin\Documents\Unity\New-DevOps\CICD
+[2020-10-16 13:57:14Z INFO NativeWindowsServiceHelper] Set full access control to group for the folder C:\Users\Admin\Documents\Unity\New-DevOps\CICD\_work
+[2020-10-16 13:57:14Z INFO NativeWindowsServiceHelper] Local group 'VSTS_AgentService_Gf37d9' already has full control to path 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\_work'.
+[2020-10-16 13:57:14Z INFO Terminal] WRITE LINE: Granting file permissions to 'NT AUTHORITY\NETWORK SERVICE'.
+[2020-10-16 13:57:14Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin'
+[2020-10-16 13:57:14Z INFO ProcessInvokerWrapper] Starting process:
+[2020-10-16 13:57:14Z INFO ProcessInvokerWrapper]   File name: '"C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin\AgentService.exe"'
+[2020-10-16 13:57:14Z INFO ProcessInvokerWrapper]   Arguments: 'init'
+[2020-10-16 13:57:14Z INFO ProcessInvokerWrapper]   Working directory: ''
+[2020-10-16 13:57:14Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2020-10-16 13:57:14Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2020-10-16 13:57:14Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2020-10-16 13:57:14Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2020-10-16 13:57:14Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2020-10-16 13:57:14Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2020-10-16 13:57:14Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2020-10-16 13:57:14Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2020-10-16 13:57:14Z INFO ProcessInvokerWrapper] Process started with process id 9736, waiting for process exit.
+[2020-10-16 13:57:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-10-16 13:57:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-10-16 13:57:14Z INFO ProcessInvokerWrapper] Exited process 9736 with exit code 0
+[2020-10-16 13:57:14Z INFO ProcessInvokerWrapper] Finished process 9736 with exit code 0, and elapsed time 00:00:00.2433962.
+[2020-10-16 13:57:14Z INFO Terminal] WRITE LINE: Service vstsagent.thehoang28041998.Default.ADMIN successfully installed
+[2020-10-16 13:57:14Z INFO Terminal] WRITE LINE: Service vstsagent.thehoang28041998.Default.ADMIN successfully set recovery option
+[2020-10-16 13:57:14Z INFO Terminal] WRITE LINE: Service vstsagent.thehoang28041998.Default.ADMIN successfully set to delayed auto start
+[2020-10-16 13:57:14Z INFO Terminal] WRITE LINE: Service vstsagent.thehoang28041998.Default.ADMIN successfully configured
+[2020-10-16 13:57:14Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin'
+[2020-10-16 13:57:14Z INFO HostContext] Well known directory 'Root': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD'
+[2020-10-16 13:57:14Z INFO HostContext] Well known config file 'Service': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\.service'
+[2020-10-16 13:57:14Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin'
+[2020-10-16 13:57:14Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Admin\Documents\Unity\New-DevOps\CICD\bin'
+[2020-10-16 13:57:14Z INFO WindowsServiceControlManager] Configuration was successful, trying to start the service
+[2020-10-16 13:57:14Z INFO Terminal] WRITE LINE: Service vstsagent.thehoang28041998.Default.ADMIN started successfully
